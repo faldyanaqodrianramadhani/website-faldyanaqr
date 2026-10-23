@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Pemograman Web</title>
+    <style>
+        body {
+            font-family: inherit;
+           background-color: rgb(194, 201, 201);
+            margin: 0;
+        }
+        h2 {
+            text-align: center;
+            color: rgb(6, 33, 124);
+            margin-top: 30px;
+            vertical-align:middle ;
+        }
+.menu-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+    max-width: 700px;
+    margin: 30px auto;
+}
+
+.menu-card {
+    background: linear-gradient(145deg, #ffffff, #f0ecff);
+    border: 1px solid #ded5ff;
+    border-radius: 18px;
+    padding: 28px 20px;
+    min-height: 90px;
+    text-align: center;
+    text-decoration: none;
+    color: #393052;
+    box-shadow: 0 5px 15px rgba(83, 62, 130, 0.08);
+    transition: all 0.3s ease;
+}
+
+.menu-card:hover {
+    transform: translateY(-7px);
+    background: linear-gradient(145deg, #e7ddff, #d8e7ff);
+    border-color: #a995ed;
+    box-shadow: 0 12px 25px rgba(83, 62, 130, 0.18);
+}
+
+.menu-card .icon {
+    font-size: 28px;
+    display: block;
+    margin-bottom: 14px;
+}
+
+.menu-card h3 {
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0;
+}
+
+@media (max-width: 650px) {
+    .menu-container {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 12px;
+        padding: 12px;
+    }
+
+    .menu-card {
+        padding: 22px 12px;
+    }
+}
+
+          }
+        }
+
+   </style>
+    </head>
+<body>
+    <h2>Tugas Pemograman Web</h2>  
+    <div class="menu-container">
+       <a href="profile.html" class="menu-card">
+        <span class="icon">👤</span>
+        <br><br>Profile
+       </a>
+       <a href="about-me.html" class="menu-card">
+        <span class="icon">✨</span>
+        <br><br>About Me
+       </a>
+       <a href="educations.html" class="menu-card">
+        <span class="icon">🎓</span>
+        <br><br>Education
+       </a>
+       <a href="hobbies.html" class="menu-card">
+        <span class="icon">💻</span>
+        <br><br>Hobbies
+       </a>
+       <a href="Course-Schedule.html" class="menu-card">
+        <span class="icon">📆</span>
+        <br><br>Course-Schedule
+       </a>
+       <a href="Form.html" class="menu-card">
+        <span class="icon">📝</span>
+        <br><br>Form
+       </a>
+       <a href="table1.html" class="menu-card">
+        <span class="icon">🗒️</span>
+        <br><br>Table 1
+       </a>
+       <a href="table2.html" class="menu-card">
+        <span class="icon">🗒️</span>
+        <br><br>Table 2
+       </a>
+       <a href="table3.html" class="menu-card">
+        <span class="icon">🗒️</span>
+        <br><br>Table 3
+       </a>
+    </div>
+</body>
+</html>
